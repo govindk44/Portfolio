@@ -86,15 +86,6 @@ const ItemWrapper = styled.div`
 const InternshipCard = ({ internship }) => {
   return (
     <VerticalTimelineElement
-      icon={
-        <img
-          width="100%"
-          height="100%"
-        //   alt={internship?.company}
-          style={{ borderRadius: "50%", objectFit: "cover" }}
-        //   src={internship?.img}
-        />
-      }
       contentStyle={{
         display: "flex",
         flexDirection: "column",

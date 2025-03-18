@@ -96,7 +96,6 @@ export const education = [
   },
   {
     id: 1,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/SVSET.jpeg?alt=media&token=example-token",
     school: "SVSET’S SVS College of BBA and BCA, Ilkal",
     date: "Completed in Sep 2023",
     grade: "74.55%",
@@ -145,7 +144,7 @@ export const projects = [
     date: "Ongoing",
     description:
       "Developed a full-stack e-commerce platform for a medical store with an interactive UI using React.js. Built a secure authentication system with Django, allowing users to sign up, log in, and manage accounts. Implemented cart management and order processing features with API integration and used MySQL for storing user, product, and order data efficiently.",
-    image: "https://raw.githubusercontent.com/govindk44/VRM/master/Screenshot%202025-03-17%20122402.png",
+    image: "",
     tags: ["React.js", "Django", "MySQL", "JavaScript"],
     category: "web app",
     github: "https://github.com/govindk44/msms",
@@ -167,7 +166,7 @@ export const projects = [
     date: "Ongoing",
     description:
       "An Android application built using Java for managing pizza orders and deliveries. Implemented Firebase authentication for user login and order tracking. Designed a smooth and interactive UI for a seamless customer experience.",
-    image: "https://raw.githubusercontent.com/govindk44/VRM/master/Screenshot%202025-03-17%20122402.png",
+    image: "",
     tags: ["Java", "Android Studio", "Firebase", "XML", "MVVM"],
     category: "android app",
     github: "https://github.com/govindk44/pizzaApp",

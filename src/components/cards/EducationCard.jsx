@@ -75,15 +75,6 @@ const Span = styled.div`
 const EducationCard = ({ education }) => {
   return (
     <VerticalTimelineElement
-      icon={
-        <img
-          width="100%"
-          height="100%"
-          // alt={education?.school}
-          style={{ borderRadius: "50%", objectFit: "cover" }}
-          // src={education?.img}
-        />
-      }
       contentStyle={{
         display: "flex",
         flexDirection: "column",
