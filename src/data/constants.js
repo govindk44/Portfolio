@@ -36,11 +36,13 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       },
       {
         name: "Next Js",
-        image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
       },
       {
         name: "HTML",
@@ -48,11 +50,13 @@ export const skills = [
       },
       {
         name: "CSS",
-        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
       },
       {
         name: "JavaScript",
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       },
     ],
   },
@@ -65,22 +69,25 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
       },
       {
         name: "Python",
-        image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
       },
       {
         name: "Django",
-        image: "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg",
       },
       {
         name: "MySQL",
-        image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
       },
     ],
-    
   },
 ];
 
@@ -88,7 +95,8 @@ export const education = [
   {
     id: 0,
 
-    school: "St. Aloysius Institute of Management and Information Technology, Mangalore",
+    school:
+      "St. Aloysius Institute of Management and Information Technology, Mangalore",
     date: "Feb 2024 - Expected 2025",
     grade: "Pursuing",
     desc: "Currently pursuing a Master's degree in Computer Applications (MCA). Gaining expertise in software development, data structures, algorithms, and backend technologies.",
@@ -155,7 +163,8 @@ export const projects = [
     date: "Ongoing",
     description:
       "Designed and developed a web-based vehicle rental system to facilitate easy booking and management of rental vehicles. Integrated search and booking functionalities, allowing users to filter vehicles based on availability. Implemented user authentication and an admin dashboard for rental management.",
-    image: "https://raw.githubusercontent.com/govindk44/VRM/master/Screenshot%202025-03-17%20122402.png",
+    image:
+      "https://raw.githubusercontent.com/govindk44/VRM/master/Screenshot%202025-03-17%20122402.png",
     tags: ["React.js", "Django", "MySQL", "JavaScript"],
     category: "web app",
     github: "https://github.com/govindk44/VRM",
@@ -170,5 +179,17 @@ export const projects = [
     tags: ["Java", "Android Studio", "Firebase", "XML", "MVVM"],
     category: "android app",
     github: "https://github.com/govindk44/pizzaApp",
+  },
+  {
+    id: 3,
+    title:
+      "EMPLOYEE ATTRITION PREDICTION USING RANDOM FOREST, LOGISTIC REGRESSION, AND SVM",
+    date: "Ongoing",
+    description:
+      "A machine learning project to predict employee attrition using Random Forest, Logistic Regression, and SVM. The model analyzes various employee-related factors to determine the likelihood of attrition. Implemented in Python with data preprocessing, feature engineering, and model evaluation.",
+    image: "",
+    tags: ["python", "machine learning"],
+    category: "machine learning",
+    github: "https://github.com/govindk44/employee_turnover_prediction",
   },
 ];
